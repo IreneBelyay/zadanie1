@@ -1,0 +1,233 @@
+header{
+	display:inline-block;
+	width:100%;
+	height:761px;
+	background:url("../fon/fon1.jpg");
+	background-repeat:no-repeat;
+}
+.menu{
+	margin-left:800px;
+	margin-top:58px;
+}
+a{
+	text-decoration:none;
+	color:#03171b;
+	font-family:Corbel;
+	font-weight:bolder;
+	font-size:24px;
+	padding-right:63px;
+	letter-spacing:2px;
+}
+.logo{
+	margin-top:128px;
+	margin-left:545px;
+}
+h1{
+	margin-top:83px;
+	font-family:Corbel;
+	font-weight:bolder;
+	font-size:20px;
+	letter-spacing:1.5px;
+	line-height:36px;
+}
+.kn1{
+	margin-top:60px;
+	margin-left:950px;
+}
+/* === Второй блок(галерея) === */
+h2{
+	color:#03171b;
+	font-family:Corbel;
+	font-weight:bolder;
+	font-size:30px;
+	margin-top:120px;
+	margin-left:620px;
+	letter-spacing:2px;
+}
+article{
+	float:left;
+}
+.photo{
+	margin-left:250px;
+	margin-top:70px;
+}
+.kn2{
+	margin-top:450px;
+	margin-left:585px;
+}
+.razdel{
+	margin-top:53px;
+	margin-left:215px;
+}
+/* === Третий блок(отзывы) === */
+.block03{
+	display:inline-block;
+	width:100%;
+	height:761px;
+	background:url("../fon/fon3.jpg");
+	background-repeat:no-repeat;
+}
+.otzivy{
+	margin-top:70px;
+}
+.o1{
+	margin-left:213px;
+}
+.chevrony{
+	margin-top:250px;
+	margin-left:100px;
+}
+.ch1{
+	margin-left:1045px;
+}
+.textotzyv{
+	color:#03171b;
+	font-family:Corbel;
+	font-weight:bolder;
+	font-size:18px;
+	margin-top:25px;
+	letter-spacing:2px;
+	text-transform: uppercase;
+	text-align:center;
+	line-height:24px;
+}
+.katya{
+	color:#ea7677;
+	font-family:Corbel;
+	font-weight:bolder;
+	font-size:15px;
+	margin-top:36px;
+	letter-spacing:2px;
+	text-transform: uppercase;
+	text-align:center;
+	line-height:24px;
+}
+/* === Четвёртый блок(заказ) === */
+.zakaz{
+	margin-top:82px;
+}
+input{
+	width:368px;
+	height:57px;
+	margin-top:25px;
+	margin-left:240px;
+	font-family:Corbel;
+	font-size:15px;
+	padding-left:10px;
+	color:#7c7c7c;
+}
+.forma{
+	display:inline-block;
+}
+.textarea{
+	float:right;	
+}
+textarea{
+	font-family:Corbel;
+	font-size:15px;
+	text-align:center;
+	padding-top:20px;
+	color:#7c7c7c;
+	width:368px;
+	height:217px;
+	margin-top:24px;
+	margin-right:270px;
+}
+.kn3{
+	margin-top:114px;
+	margin-left:570px;
+}
+/* === Футэр === */
+footer{
+	width:100%;
+	height:82px;
+	background-color:#f8e8df;
+	margin-top:62px;
+}
+p.first{
+	letter-spacing:2px;
+	text-transform: uppercase;
+	font-family:Corbel;
+	font-size:12px;
+	font-weight:bolder;
+	padding-left:62px;
+	padding-top:20px;
+}
+.two{
+	float:right;
+}
+p.second{
+	letter-spacing:2px;
+	text-transform: uppercase;
+	font-family:Corbel;
+	font-size:14px;
+	font-weight:bolder;
+	padding-right:590px;
+	margin-top:-28px;
+}
+.three{
+	float:right;
+	margin-right:30px;
+	margin-top:-38px;
+}
+
+@media screen and (max-width: 1008px) {
+	.menu{
+		margin-left:500px;
+	}
+	.logo{
+		margin-left:400px;
+	}
+	.kn1{
+		margin-left:800px;
+	}
+	h2{
+		margin-left:470px;
+	}
+	.photo{
+		margin-left:240px;
+		margin-bottom:75px;
+	}
+	.kn2{
+		margin-top:530px;
+		margin-left:430px;
+	}
+	.razdel{
+	margin-left:70px;
+	}
+	.o1{
+	margin-left:142px;
+	}
+	.ch1{
+	margin-left:750px;
+	}
+	.katya{
+	margin-top:36px;
+	margin-left:50px;
+	}
+	.textotzyv{
+		margin-left:50px;
+	}
+	input{
+		width:200px;
+		height:57px;
+		margin-left:240px;
+	}
+	textarea{
+		width:230px;
+		height:217px;
+		margin-right:170px;
+	}
+	.kn3{
+		margin-left:435px;
+	}
+	p.second{
+		padding-right:450px;
+	}
+		.three{
+		margin-right:0px;
+	}
+}
+
+
+
